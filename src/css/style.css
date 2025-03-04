@@ -51,3 +51,10 @@ h1::before {
 img {
 	border: 10px solid #8B4614;
 }
+
+.rounded-box {
+	display: inline-block;
+	background-color: grey;
+	padding: 10px 15px;
+	border-radius: 12px;
+}
