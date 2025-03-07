@@ -2,6 +2,26 @@
 
 	{
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 320px) {
+	img {
+		display: block;
+		margin: auto;
+		width: 100%;
+	}
+}
+
+@media (min-width: 1280px) {
+	.main-text {
+		font-size: 25px;
+	}
+
+	.heading-font {
+		font-size: 45px;
+	}
 }
 
 .navigation {
@@ -12,6 +32,8 @@
 body {
 	background-color: #C56A28;
 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 h1 {
@@ -37,7 +59,7 @@ h1::before {
 
 .main-text {
 	font-family: "Klee One";
-	text-align: center;
+	text-align: left;
 }
 
 .heading-font {
@@ -49,15 +71,21 @@ h1::before {
 	text-align: center;
 }
 
+
 .border-image {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
 	border: 10px solid #8B4614;
 	box-sizing: border-box;
+	display: block;
 }
 
 .rounded-box {
 	background-color: #D9D9D9;
 	padding: 5px 10px;
 	border-radius: 12px;
+	margin: 15px;
 }
 
 .header-background {
